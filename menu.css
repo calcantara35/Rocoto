@@ -1,0 +1,619 @@
+/* menu.css */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+body {
+
+    overflow-x: hidden; /* prevents white space */
+    font-family: 'Lato', sans-serif; /* font style overall */
+    color: #505962;     /* color of text overall  */
+
+}
+p {
+    font-size: 1.3rem;
+}
+
+/* Nav Scrolling Offset */
+.offset:before {
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+
+/* Extra Bootstrap Column Padding */
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*====================== Navigation ========================= */
+.navbar {
+    padding: .7rem 2rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: background-color .5 ease 0s; /* transition (transparent - solid */
+}
+
+.svg-inline--fa.fa-w-14 { /* class for custom hamburger icon */
+    color: black;
+    font-size: 1.6rem;
+}
+
+.svg-inline--fa.fa-w-14.whiteHamIcon {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active, /* this is to make the top links colored and activate on hover */
+.navbar-nav .nav-link:hover { 
+    color: red;
+}
+
+.navbar.solid {
+    background: rgba(0, 0, 0, 0.7) !important;
+    transition: background-color 1s ease 0s; /* transition (solid - transparent) */
+}
+.nav-link.whiteText {
+    color: white;
+}
+
+/*====================== LANDING PAGE ========================= */
+
+.landing {
+    height: 60vh !important;
+}
+
+.home-inner {
+    background: url('img/blackboard.jpg') bottom center no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 18%;
+    z-index: 1; /* places text ontop of landing page image*/
+}
+
+.caption h1 {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+
+}
+
+.caption h3 {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 2rem;
+}
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block!important;
+  }
+
+
+  /* Menu Description Section */
+
+.menu-title {
+    color: #1a401a;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.menu-heading {
+    padding: 1rem 5rem 0rem 5rem;
+    margin: 2rem 2rem 0rem 2rem;
+    font-size: 1.3rem;
+}
+
+.menu-grid {
+    padding: 0rem 5rem 0rem 5rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+#under-heading-text {
+    font-style: italic;
+}
+
+li.submenu-title {
+    font-size: 1.6rem;
+}
+
+#food-options {
+    font-style: italic;
+}
+#food-options-1 {
+    font-style: italic;
+}
+#food-options-2 {
+    font-style: italic;
+}
+#food-options-3 {
+    font-style: italic;
+}
+#food-options-4 {
+    font-style: italic;
+}
+#food-options-5 {
+    font-style: italic;
+}
+#food-options-6 {
+    font-style: italic;
+}
+#food-options-7 {
+    font-style: italic;
+}
+#food-options-8 {
+    font-style: italic;
+}
+
+
+
+ul.leaders {
+    max-width: 34em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white}
+
+
+
+/*heading underline for entire page use */
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+
+
+/* Dark BG IMG for Entrees */
+
+#fixed {
+    background: url('img/blackboard.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    
+}
+#fixed-3 {
+    background: url('img/blackboard.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    
+}
+#fixed-4 {
+    background: url('img/blackboard.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    
+}
+#fixed-2 {
+    background: url('img/blackboard.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 10rem 2rem;
+    text-align: center;
+    z-index: 1000 !important;
+    
+}
+
+
+.dark h3 {
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    color: white;
+    letter-spacing: .2rem;
+    
+}
+
+
+#under-img-col { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-2 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-3 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-4 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-5 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-6 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+#under-img-col-7 { /*spacing the section images and content */
+    margin-top: 2rem;
+}
+
+/* End Dark BG IMG for Entrees */
+
+#menu-no-heading{
+    margin-top: 4.5rem;
+}
+#menu-no-heading-2{
+    margin-top: 4.5rem;
+}
+#menu-no-heading-3{
+    margin-top: 4.5rem;
+}
+#menu-no-heading-4{
+    margin-top: 4.5rem;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #505962;
+    background-size: cover;
+    color: white;
+}
+
+footer .row {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem;
+}
+
+footer img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+    color: white !important;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: red!important;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    margin: 1rem 0rem .5rem 0;
+}
+
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+
+
+/*--- Top Scroll ---*/
+
+.top-scroll svg.svg-inline--fa {
+    font-size: 3rem;
+    height: 1.7rem;
+    color: #53595f;
+    background: white;
+}
+
+a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
+
+a.top-scroll:hover {
+    opacity: .5;
+}
+
+
+#mobile-hide {
+    display: contents inline;
+}
+
+#mobile-hide-2 {
+    display: contents inline;
+}
+
+#mobile-hide-3 {
+    display: contents inline;
+}
+#mobile-show-quesadilla {
+    display: none;
+}
+#mobile-show-daditos{
+    display: none;
+}
+#mobile-show-alfajores {
+    display: none;
+}
+#mobile-text-spacing {
+    margin-top: 0rem;
+}
+
+
+/*--- MEDIA QUERIES ---*/
+
+/* Devices under 992px (lg) screen */
+
+@media (max-width: 991px) {
+    .caption h1 {
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        padding-bottom: .8rem;
+    }
+    
+    .caption h3 {
+        font-size: 2.2rem; 
+        padding-bottom: 1.7rem;
+    }
+    .btn-lg {
+        padding: .7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 2.1rem;
+    }
+    #mobile-hide {
+        display: contents inline;
+    }
+    #mobile-hide-2 {
+        display: contents inline;
+    }
+    #mobile-hide-3 {
+        display: contents inline;
+    }
+    #mobile-show-quesadilla {
+        display: none;
+    }
+    #mobile-show-daditos{
+        display: none;
+    }
+    #mobile-show-alfajores {
+        display: none;
+    }
+    #mobile-text-spacing {
+        margin-top: 0rem;
+    }
+}
+
+/* Devices under 768px (md) screen */
+
+@media (max-width: 767px) {
+    p {
+        font-size: 1.2rem;
+    }
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    
+    .caption h3 {
+        font-size: 1.7rem; 
+        padding-bottom: 1.2rem;
+    }
+    .btn-lg {
+        font-size: 1rem;
+        padding: .6rem 1.1rem;
+    }
+    .narrow h1 {
+        font-size: 1.8rem;
+    }
+    #bg-text-content {
+        font-size: 4rem;
+    }
+    #bg-text-content-2 {
+        font-size: 4rem;
+    }
+    #bg-text-content-3 {
+        font-size: 4rem;
+    }
+    #bg-text-content-4 {
+        font-size: 4rem;
+    }
+    #menu-no-heading {
+        margin-top: -3rem;
+    }
+    #menu-no-heading-2 {
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+    #menu-no-heading-3 {
+        margin-top: -3rem;
+    }
+    #menu-no-heading-4 {
+        margin-top: -3rem;
+    }
+    #under-img-col-5.col-md-6.under-space-2 {
+        margin-top: -2.5rem;
+    }
+    #under-img-col-3.col-md-6.under-space {
+        margin-top: -2.5rem;
+    }
+    li.submenu-title {
+        font-size: 1.45rem;
+    }
+    .menu-title {
+        text-transform: uppercase;
+        font-size: 1.7rem;
+    }
+    .menu-heading {
+        font-size: 1.2rem;
+        
+    }
+    #mobile-hide {
+        display: contents inline;
+    }
+    #mobile-hide-2 {
+        display: contents inline;
+    }
+    #mobile-hide-3 {
+        display: contents inline;
+    }
+    #mobile-show-quesadilla {
+        display: none;
+    }
+    #mobile-show-daditos{
+        display: none;
+    }
+    #mobile-show-alfajores {
+        display: none;
+    }
+    #mobile-text-spacing {
+        margin-top: 0rem;
+    }
+    footer .row{
+        text-align: center;
+        
+    }
+}
+
+/* Devices under 576px (sm) screen */
+
+@media (max-width: 575px) {
+    p {
+        font-size: 1rem;
+    }
+    .caption h1 {
+        font-size: 1.99rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }
+    
+    .caption h3 {
+        font-size: 1.4rem; 
+        padding-bottom: 1rem;
+    }
+    .btn-lg {
+        padding: .5rem .9rem;
+        font-size: .9rem;
+    }
+    .narrow  {
+        width: 85%;
+    }
+    #bg-text-content {
+        font-size: 4rem;
+    }
+    #bg-text-content-2 {
+        font-size: 4rem;
+    }
+    #bg-text-content-3 {
+        font-size: 4rem;
+    }
+    #bg-text-content-4 {
+        font-size: 4rem;
+    }
+    #menu-no-heading {
+        margin-top: -3rem;
+    }
+    #menu-no-heading-2 {
+        margin-top: -3rem;
+    }
+    #menu-no-heading-3 {
+        margin-top: -3rem;
+    }
+    #menu-no-heading-4 {
+        margin-top: -3rem;
+    }
+    #under-img-col-5.col-md-6.under-space-2 {
+        margin-top: -2.5rem;
+    }
+    #under-img-col-3.col-md-6.under-space {
+        margin-top: -2.5rem;
+    }
+    li.submenu-title {
+        font-size: 1.2rem;
+        margin: .3rem 0rem .3rem 0rem;
+    }
+    .menu-title {
+        text-transform: uppercase;
+        font-size: 1.7rem;
+    }
+    .menu-heading {
+        font-size: 1.2rem;
+        
+    }
+    #mobile-hide {
+        display: none;
+    }
+    #mobile-hide-2 {
+        display: none;
+    }
+    #mobile-hide-3 {
+        display: none;
+    }
+    #mobile-show-quesadilla {
+        font-size: 1.2rem;
+        display: contents;
+    }
+    #mobile-show-alfajores {
+        font-size: 1.2rem;
+        display: contents;
+    }
+    #mobile-show-daditos{
+        font-size: 1.2rem;
+        display: contents;
+        
+    }
+    #mobile-text-spacing {
+        margin-top: -.2rem;
+        margin-left: 0rem;
+    }
+    footer .row {
+        text-align: center;
+        
+    }
+    
+}
