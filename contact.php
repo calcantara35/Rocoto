@@ -17,7 +17,7 @@ $fromEmail = 'noreply@email.com';
 $fromName = 'No Reply Email';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'info@rocotoperuvianmexicangrill.com';
+$sendToEmail = 'rocotopm@gmail.com';
 $sendToName = 'Rocoto Peruvian Mexican Grill';
 
 // subject of the email
