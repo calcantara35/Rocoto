@@ -6,11 +6,13 @@ body {
 
     overflow-x: hidden; /* prevents white space */
     font-family: 'Lato', sans-serif; /* font style overall */
-    color: #505962;     /* color of text overall  */
+    color: black;     /* color of text overall  */
 
 }
+
 p {
     font-size: 1.3rem;
+    
 }
 
 /* Nav Scrolling Offset */
@@ -123,7 +125,7 @@ p {
   /* Menu Description Section */
 
 .menu-title {
-    color: #1a401a;
+    color: black;
     letter-spacing: .1rem;
     text-transform: uppercase;
 }
@@ -212,25 +214,25 @@ hr.socket {
 /* Dark BG IMG for Entrees */
 
 #fixed {
-    background: url('img/blackboard.jpg') no-repeat center center;
+    background: url('img/blackboard.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     
 }
 #fixed-3 {
-    background: url('img/blackboard.jpg') no-repeat center center;
+    background: url('img/blackboard.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     
 }
 #fixed-4 {
-    background: url('img/blackboard.jpg') no-repeat center center;
+    background: url('img/blackboard.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     
 }
 #fixed-2 {
-    background: url('img/blackboard.jpg') no-repeat center center;
+    background: url('img/blackboard.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
     
